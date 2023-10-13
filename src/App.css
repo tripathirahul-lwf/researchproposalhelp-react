@@ -1,38 +1,184 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Bhaina+2&family=Inter:wght@400;600;700;800;900&family=Roboto&family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* font-family: 'Baloo 2', sans-serif;
+font-family: 'Baloo Bhaina 2', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.button .btn {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 13px 30px;
+  background-color: #ff6b81;
+  color: #fff;
+  border: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  margin-right: 7px;
+  overflow: hidden;
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+
+
+/* Section Title */
+.section-title {
   text-align: center;
+  margin-bottom: 80px;
+  padding: 0 300px;
+  position: relative;
+  z-index: 5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-title h3 {
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #ff6b81;
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.section-title h2 {
+  font-size: 34px;
+  margin-bottom: 25px;
+  line-height: 42px;
+  text-transform: capitalize;
+  position: relative;
+  font-weight: 800;
+}
+
+.section-title p {
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .section-title {
+    padding: 0px 200px;
+    margin-bottom: 70px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section-title {
+    padding: 0px 20px;
+    margin-bottom: 70px;
+  }
+
+  .section-title h3 {
+    font-size: 14px;
+  }
+
+  .section-title h2 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .section-title p {
+    font-size: 14px;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 767px) {
+  .section-title {
+    padding: 0px 10px;
+    margin-bottom: 60px;
+  }
+
+  .section-title h3 {
+    font-size: 14px;
+  }
+
+  .section-title h2 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 18px;
+  }
+
+  .section-title p {
+    font-size: 14px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-title.align-right {
+  padding: 0;
+  padding-left: 600px;
+}
+
+.section-title.align-right h2:before {
+  display: none;
+}
+
+.section-title.align-right h2:after {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  width: 50px;
+  background: #ff6b81;
+  content: "";
+}
+
+.section-title.align-left {
+  padding: 0;
+  padding-right: 600px;
+}
+
+.section-title.align-left h2:before {
+  left: 0;
+  margin-left: 0;
 }

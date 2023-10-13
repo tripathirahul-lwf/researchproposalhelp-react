@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './component/common/head/Header';
+import Cta from './component/cta/Cta';
+import Faq from './component/faq/Faq';
+import FWrapper from './component/features/FWrapper';
+import Footer from './component/footer/Footer';
+import Hero from './component/hero/Hero';
+import RWrapper from './component/review/RWrapper';
+import Servicesmain from './component/services/Servicesmain';
+import SWrapper from './component/steps/SWrapper';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <Servicesmain />
+      <FWrapper />
+      <Cta />
+      <SWrapper />
+      <RWrapper />
+      <Faq />
+      <Footer />
+    </>
   );
 }
 

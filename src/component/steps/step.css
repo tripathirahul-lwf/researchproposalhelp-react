@@ -1,0 +1,125 @@
+.steps {
+    padding: 4rem 0;
+}
+
+.steps-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.para {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 20%;
+}
+
+.steps-wrapper .step-body {
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    border: 1px solid #eee;
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+
+.steps-wrapper .step-body:hover {
+    -webkit-box-shadow: 0px 3px 5px #00000017;
+    box-shadow: 0px 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.steps-wrapper .step-body .step_div {
+    display: flex;
+    height: 120px;
+}
+
+.steps-wrapper .step-body .set-img img {
+    height: 70px;
+}
+
+.steps-wrapper .step-body .step_div .l-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+.steps-wrapper .step-body .step_div .r-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.steps-wrapper .step-body .step_div .l-side.red {
+    background-color: #ff6b81;
+}
+
+.steps-wrapper .step-body .step_div .l-side.green {
+    background-color: #74cb74;
+}
+
+.steps-wrapper .step-body .step_div .l-side.blue {
+    background-color: #7575e5;
+}
+
+.steps-wrapper .step-body .step_div .r-side.red-light {
+    background-color: #f48293;
+}
+
+.steps-wrapper .step-body .step_div .r-side.green-light {
+    background-color: #6be36b;
+}
+
+.steps-wrapper .step-body .step_div .r-side.blue-light {
+    background-color: #5252fd;
+
+}
+
+.steps-wrapper .step-body .step_div .l-side .step_number {
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 39px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.steps-wrapper .step-body .step-title {
+    margin: 1rem 0 .5rem;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.steps-wrapper .step-body p {
+    padding: 0 2rem 2rem;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+    .para {
+        padding: 0 10%;
+    }
+
+    .steps-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .para {
+        padding: 0 2%;
+    }
+
+    .steps-wrapper {
+        grid-template-columns: 1fr;
+        grid-gap: 40px 0;
+    }
+}
