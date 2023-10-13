@@ -14,7 +14,7 @@ const Head = () => {
 
             if (window.pageYOffset > sticky) {
                 setIsSticky(true);
-                logo.src = 'images/icon/badge.png';
+                logo.src = 'images/logo/logo.svg';
             } else {
                 setIsSticky(false);
                 logo.src = 'images/logo/white-logo.svg';
