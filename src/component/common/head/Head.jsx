@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './head.css'
+import logoBlack from '../../images/logo/logo.svg'
+import logoWhite from '../../images/logo/white-logo.svg'
 
 const Head = () => {
 
@@ -10,14 +12,14 @@ const Head = () => {
             const headerNavbar = document.querySelector(".navbar-area");
             const sticky = headerNavbar.offsetTop;
 
-            const logo = document.querySelector('.navbar-brand img');
+            const logo = document.getElementsByTagName('img');
 
             if (window.pageYOffset > sticky) {
                 setIsSticky(true);
-                logo.src = 'images/logo/logo.svg';
+                logo[0].src=logoBlack;
             } else {
                 setIsSticky(false);
-                logo.src = 'images/logo/white-logo.svg';
+                logo[0].src=logoWhite;
             }
         };
 
@@ -37,10 +39,11 @@ const Head = () => {
                             <div className="nav-inner">
                                 <nav className="navbar navbar-expand-lg" >
                                     <a className="navbar-brand" href="/">
-                                        <img src="images/logo/white-logo.svg" alt="" />
+                                        <img src={logoWhite} alt="logo" />
                                     </a>
 
-                                    <button className="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+
+                                    <button className={`navbar-toggler ${isSticky ? "active" : "mobile-menu-btn active"}`}  type="button" data-bs-toggle="collapse"
                                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                         aria-expanded="false" aria-label="Toggle navigation">
                                         <span className="toggler-icon"></span>

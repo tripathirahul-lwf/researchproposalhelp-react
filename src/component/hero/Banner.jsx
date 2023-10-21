@@ -1,5 +1,6 @@
 import React from 'react'
 import './banner.css'
+import Form from '../form/Form'
 
 const Banner = () => {
     return (
@@ -24,7 +25,7 @@ const Banner = () => {
                                 <h2 className="form_title text-center">
                                     Get Help
                                 </h2>
-                                <div formsappId="65117e3a5e2b7cb187f19c02"></div>
+                                <Form />
                             </div>
                         </div>
                     </div>

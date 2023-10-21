@@ -1,0 +1,34 @@
+.trusted-block{
+    text-align: center;
+    padding: 35px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: relative;
+    border: 1px solid #eee;
+    -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
+}
+.trusted-block:hover{
+    -webkit-box-shadow: 0px 3px 5px #00000017;
+    box-shadow: 0px 3px 5px #00000017;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.rating , .review-count{
+    font-size: 18px;
+    color: #766d6d;
+    font-weight: 600;
+    margin: .7rem 0;
+}
+.review-count{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.rate_star{
+    color: #ffb700;
+}
+.trusted-logo img{
+    margin-top: 10px;
+    height: 60px;
+    width: 90%;
+}

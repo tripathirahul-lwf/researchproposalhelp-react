@@ -1,5 +1,14 @@
 import React from 'react'
 import './services.css'
+import graduate from "../images/icons/graduate.png"
+import seo from "../images/icons/seo.png"
+import badge from "../images/icons/badge.png"
+import revision from "../images/icons/revision.png"
+import delivery from "../images/icons/deliver.png"
+
+
+
+
 
 const Services = () => {
     return (
@@ -24,7 +33,7 @@ const Services = () => {
 
                             <div className="single-feature wow fadeInUp" data-wow-delay=".2s">
                                 <i>
-                                    <img src="images/icons/graduate.png" alt="" />
+                                    <img src={graduate} alt="img" />
                                 </i>
                                 <h3>Ph.D. Experts</h3>
                                 <p>If you are wondering how to write a research proposal and can't get past the thought of
@@ -33,7 +42,7 @@ const Services = () => {
                             </div>
                             <div className="single-feature wow fadeInUp" data-wow-delay=".4s">
                                 <i>
-                                    <img src="images/icons/seo.png" alt="" />
+                                    <img src={seo} alt="" />
                                 </i>
                                 <h3>Custom Research Proposals</h3>
                                 <p>Our custom research proposals are meticulously crafted to align with the unique
@@ -43,7 +52,7 @@ const Services = () => {
                             </div>
                             <div className="single-feature wow fadeInUp" data-wow-delay=".6s">
                                 <i>
-                                    <img src="images/icons/badge.png" alt="" />
+                                    <img src={badge} alt="" />
                                 </i>
                                 <h3>7-Step Quality Check</h3>
                                 <p>Our research proposal experts believe in providing 100% accuracy and ensure to follow a
@@ -53,7 +62,7 @@ const Services = () => {
                             </div>
                             <div className="single-feature wow fadeInUp" data-wow-delay=".2s">
                                 <i>
-                                    <img src="images/icons/revision.png" alt="" />
+                                    <img src={revision} alt="" />
                                 </i>
                                 <h3>Free Unlimited Revisions</h3>
                                 <p>Although we ensure to assign you the best Ph.D. research proposal writers, mistakes can
@@ -62,7 +71,7 @@ const Services = () => {
                             </div>
                             <div className="single-feature wow fadeInUp" data-wow-delay=".4s">
                                 <i>
-                                    <img src="images/icons/deliver.png" alt="" />
+                                    <img src={delivery} alt="" />
                                 </i>
                                 <h3>Instant Research Proposal Delivery</h3>
                                 <p>Have fewer days to submit your final research proposal? We can help you by creating a

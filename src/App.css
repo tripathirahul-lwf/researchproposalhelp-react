@@ -33,7 +33,10 @@ p {
   font-size: 15px;
   line-height: 24px;
 }
-
+button:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
+}
 .button .btn {
   display: inline-block;
   text-transform: capitalize;

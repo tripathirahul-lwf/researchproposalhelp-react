@@ -4,7 +4,7 @@ import './step.css'
 const Step = () => {
     return (
         <>
-            <section className="steps">
+            <section className="steps section">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

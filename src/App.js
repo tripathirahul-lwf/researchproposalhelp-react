@@ -8,16 +8,18 @@ import Hero from './component/hero/Hero';
 import RWrapper from './component/review/RWrapper';
 import Servicesmain from './component/services/Servicesmain';
 import SWrapper from './component/steps/SWrapper';
+import Trustedby from './component/trusted/Trustedby';
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
+      <Trustedby />
+      <SWrapper />
       <Servicesmain />
       <FWrapper />
       <Cta />
-      <SWrapper />
       <RWrapper />
       <Faq />
       <Footer />
