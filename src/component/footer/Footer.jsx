@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import logo from '../images/logo/white-logo.svg'
 
 const Footer = () => {
     return (
@@ -14,18 +15,11 @@ const Footer = () => {
                                 <div className="single-footer f-about">
                                     <div className="logo">
                                         <a href="index-2.html">
-                                            <img src="images/logo/white-logo.svg" alt="#" />
+                                            <img src={logo} alt="#" />
                                         </a>
                                     </div>
                                     <p>Making the world a better place through constructing elegant hierarchies.</p>
-                                    {/* <ul className="social">
-                                        <li><a href="/"><i className="lni lni-facebook-filled"></i></a></li>
-                                        <li><a href="/"><i className="lni lni-twitter-original"></i></a></li>
-                                        <li><a href="/"><i className="lni lni-instagram"></i></a></li>
-                                        <li><a href="/"><i className="lni lni-linkedin-original"></i></a></li>
-                                        <li><a href="/"><i className="lni lni-youtube"></i></a></li>
-                                        <li><a href="/"><i className="lni lni-pinterest"></i></a></li>
-                                    </ul> */}
+                                 
 
                                 </div>
 
@@ -35,11 +29,9 @@ const Footer = () => {
                                 <div className="single-footer f-link">
                                     <h3>Contact us</h3>
                                     <ul>
-                                        <li><a href="/">Marketing</a></li>
-                                        <li><a href="/">Analytics</a></li>
-                                        <li><a href="/">Commerce</a></li>
-                                        <li><a href="/">Insights</a></li>
-                                        <li><a href="/">Promotion</a></li>
+                                        <li><span><i className="fa-solid fa-phone-volume"></i></span><a href="/">+91 7054203297</a></li>
+                                        <li><span><i class="fa-solid fa-envelope"></i></span><a href="/">help@researchproposalhelp@gmail.Com</a></li>
+                                        <li><span><i class="fa-solid fa-location-dot"></i></span><a href="/">1,2 street xyz</a></li>                                       
                                     </ul>
                                 </div>
                             </div>
@@ -47,7 +39,6 @@ const Footer = () => {
 
                     </div>
                 </div>
-
             </footer>
         </>
     )
