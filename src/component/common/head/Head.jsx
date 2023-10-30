@@ -16,10 +16,10 @@ const Head = () => {
 
             if (window.pageYOffset > sticky) {
                 setIsSticky(true);
-                logo[0].src=logoBlack;
+                logo[0].src = logoBlack;
             } else {
                 setIsSticky(false);
-                logo[0].src=logoWhite;
+                logo[0].src = logoWhite;
             }
         };
 
@@ -41,9 +41,7 @@ const Head = () => {
                                     <a className="navbar-brand" href="/">
                                         <img src={logoWhite} alt="logo" />
                                     </a>
-
-
-                                    <button className={`navbar-toggler ${isSticky ? "active" : "mobile-menu-btn active"}`}  type="button" data-bs-toggle="collapse"
+                                    <button button className="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                         aria-expanded="false" aria-label="Toggle navigation">
                                         <span className="toggler-icon"></span>
