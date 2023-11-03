@@ -40,15 +40,15 @@ const Review = () => {
     };
     return (
         <>
-            <section class="testimonials section" id="review">
-                <img class="testi-patern1" src="images/testimonial/testi-patern.svg" alt="#" />
-                <img class="testi-patern2" src="images/testimonial/testi-patern.svg" alt="#" />
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="section-title">
-                                <h3 class="wow zoomIn" data-wow-delay=".2s">Review</h3>
-                                <h2 class="wow fadeInUp" data-wow-delay=".4s">What 58932+ Students Have to Say About Our
+            <section className="testimonials section" id="review">
+                <img className="testi-patern1" src="images/testimonial/testi-patern.svg" alt="#" />
+                <img className="testi-patern2" src="images/testimonial/testi-patern.svg" alt="#" />
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="section-title">
+                                <h3 className="wow zoomIn" data-wow-delay=".2s">Review</h3>
+                                <h2 className="wow fadeInUp" data-wow-delay=".4s">What 58932+ Students Have to Say About Our
                                     Academic Research Proposal Services
                                 </h2>
                             </div>
@@ -56,8 +56,8 @@ const Review = () => {
                     </div>
                     <Slider {...settings}>
                         <div>
-                            <div class="post-content">
-                                <p class="post-description">"My deadline to submit the research proposal was literally one
+                            <div className="post-content">
+                                <p className="post-description">"My deadline to submit the research proposal was literally one
                                     week from the time I
                                     realized it was too late for me to keep on holding the writer's block. It was a Ph.D.
                                     research proposal so couldn't take the risk at all. After careful analysis and
@@ -68,8 +68,8 @@ const Review = () => {
                             </div>
                         </div>
                         <div>
-                            <div class="post-content">
-                                <p class="post-description">"Me and my best friend Sudha had a terrible month and wanted to
+                            <div className="post-content">
+                                <p className="post-description">"Me and my best friend Sudha had a terrible month and wanted to
                                     hire a professional
                                     research proposal writer for help as our submission date was in 2 weeks. As we had
                                     skipped so many classes, we had no idea how to write a research proposal. We
@@ -79,8 +79,8 @@ const Review = () => {
                             </div>
                         </div>
                         <div>
-                            <div class="post-content">
-                                <p class="post-description">"I used to hate sociology and one day my professor gave all of
+                            <div className="post-content">
+                                <p className="post-description">"I used to hate sociology and one day my professor gave all of
                                     us a month to prepare
                                     research proposals. At first, I was procrastinating but then, of course, I did not want
                                     to fail so I began looking for professional writers to do my research proposal. My
@@ -90,8 +90,8 @@ const Review = () => {
                             </div>
                         </div>
                         <div>
-                            <div class="post-content">
-                                <p class="post-description">"I had been struggling to write my research proposal for quite
+                            <div className="post-content">
+                                <p className="post-description">"I had been struggling to write my research proposal for quite
                                     some time and
                                     required an authentic professional to help me out. I found out about this Research
                                     Proposal Help Website from a friend and am glad to say that I got the best my first

@@ -45,6 +45,7 @@
 }
 
 .footer .single-footer.f-about .logo img {
+    height: 70px;
     width: 180px;
 }
 
@@ -171,4 +172,15 @@ ul li span i {
     color: #fff;
     margin-right: 1rem;
     font-size: 14px;
+}
+.copy{
+    color: #fff;
+}
+.disc{
+    background: #051320;
+    color: #fff;
+    padding: 5px 10px;
+}
+.disc span{
+    font-size: 13px;
 }

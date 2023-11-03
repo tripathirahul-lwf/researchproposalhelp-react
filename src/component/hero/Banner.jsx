@@ -15,7 +15,7 @@ const Banner = () => {
                                     proposal help delivered by Ph.D. experts
                                     online.</p>
                                 <div className="button wow fadeInLeft" data-wow-delay=".8s">
-                                    <a href="/" className="btn">Connect with expert</a>
+                                    <a href="https://api.whatsapp.com/send?phone=61488896118&text=I%20Need%20Help!!" className="btn">Connect with expert</a>
                                 </div>
                             </div>
                         </div>

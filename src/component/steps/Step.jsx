@@ -10,9 +10,7 @@ const Step = () => {
                         <div className="col-12">
                             <div className="section-title">
                                 <h3 className="wow zoomIn" data-wow-delay=".2s">Steps</h3>
-                                <h2 className="wow fadeInUp" data-wow-delay=".4s">Order Our Custom Research Proposal Help in Just 3
-                                    Easy Steps!
-                                </h2>
+                                <h2 className="wow fadeInUp" data-wow-delay=".4s">Order Our Custom Research Proposal Writing Help In Just 3 Easy Steps!</h2>
                                 <p className="wow fadeInUp" data-wow-delay=".6s">You might have witnessed that many research
                                     proposal help websites have too many
                                     formalities to reach on to the final step to make an order. Well, our help with research

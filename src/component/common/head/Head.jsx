@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './head.css'
-import logoBlack from '../../images/logo/logo.svg'
-import logoWhite from '../../images/logo/white-logo.svg'
+import logoWhite from '../../images/logo/logo.png'
 
 const Head = () => {
 
@@ -11,15 +10,10 @@ const Head = () => {
         const handleScroll = () => {
             const headerNavbar = document.querySelector(".navbar-area");
             const sticky = headerNavbar.offsetTop;
-
-            const logo = document.getElementsByTagName('img');
-
             if (window.pageYOffset > sticky) {
                 setIsSticky(true);
-                logo[0].src = logoBlack;
             } else {
                 setIsSticky(false);
-                logo[0].src = logoWhite;
             }
         };
 
@@ -38,8 +32,8 @@ const Head = () => {
                         <div className="col-lg-12">
                             <div className="nav-inner">
                                 <nav className="navbar navbar-expand-lg" >
-                                    <a className="navbar-brand" href="/">
-                                        <img src={logoWhite} alt="logo" />
+                                    <a className="navbar-brand" href="#">
+                                        <img src={logoWhite} alt="logo" loading='lazy'/>
                                     </a>
                                     <button button className="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -51,22 +45,22 @@ const Head = () => {
                                     <div className="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                         <ul id="nav" className="navbar-nav ms-auto">
                                             <li className="nav-item">
-                                                <a href="/home" className="page-scroll active"
+                                                <a href="#home" className="page-scroll active"
                                                     aria-label="Toggle navigation">Home</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a href="/features" className="page-scroll"
+                                                <a href="#features" className="page-scroll"
                                                     aria-label="Toggle navigation">Services</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a href="/review" className="page-scroll" aria-label="Toggle navigation">Review</a>
+                                                <a href="#review" className="page-scroll" aria-label="Toggle navigation">Review</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a href="/FAQs" className="page-scroll" aria-label="Toggle navigation">FAQs</a>
+                                                <a href="#FAQs" className="page-scroll" aria-label="Toggle navigation">FAQs</a>
                                             </li>
 
                                             <li className="nav-item">
-                                                <a href="/contact" aria-label="Toggle navigation">Contact</a>
+                                                <a href="#contact" aria-label="Toggle navigation">Contact</a>
                                             </li>
 
                                         </ul>
