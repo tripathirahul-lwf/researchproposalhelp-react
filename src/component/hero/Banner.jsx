@@ -11,8 +11,7 @@ const Banner = () => {
                         <div className="col-lg-5 col-md-12 col-12">
                             <div className="hero-content">
                                 <h1 className="wow fadeInLeft" data-wow-delay=".4s">Research Proposal Help By Ph.D. Experts</h1>
-                                <p className="wow fadeInLeft" data-wow-delay=".6s">Well-researched and well-structured research
-                                    proposal help delivered by Ph.D. experts
+                                <p className="wow fadeInLeft" data-wow-delay=".6s">Well-researched and well-structured Ph.D. research proposal help delivered by experts
                                     online.</p>
                                 <div className="button wow fadeInLeft" data-wow-delay=".8s">
                                     <a href="https://api.whatsapp.com/send?phone=61488896118&text=I%20Need%20Help!!" className="btn">Connect with expert</a>

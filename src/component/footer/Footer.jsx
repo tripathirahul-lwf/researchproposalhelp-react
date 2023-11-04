@@ -12,13 +12,19 @@ const Footer = () => {
                 <div className="footer-top">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-4 col-md-4 col-12">
+                            <div className="col-lg-4 col-12">
                                 <div className="single-footer f-about">
                                     <div className="logo">
                                         <a href="index-2.html">
                                             <img src={logo} alt="#" />
                                         </a>
                                     </div>
+                                    <ul className='social-icon'>
+                                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                                        <li><i class="fa-brands fa-twitter"></i></li>
+                                        <li><i class="fa-brands fa-instagram"></i></li>
+                                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                                    </ul>
                                 </div>
                             </div>
                             <div className="col-lg-2"></div>

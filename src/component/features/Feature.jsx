@@ -31,7 +31,7 @@ const Feature = () => {
                                 </i>
                                 <h3>24/7 Availability</h3>
                                 <p>No matter when you wish to reach out to us, our research proposal experts are here to
-                                    assist you 24/7. Even if you are seeking research proposal help from across borders, we are
+                                    assist you 24/7. Even if you are seeking research proposal writing help from across borders, we are
                                     round the clock available to listen to your queries.</p>
                             </div>
 
@@ -42,8 +42,8 @@ const Feature = () => {
                                     <img src={authentic} alt="" />
                                 </i>
                                 <h3>100% Authenticity </h3>
-                                <p>If you need help with research proposal and choose us for assistance, our research proposal
-                                    experts will ensure to deliver the content that is 100% plagiarism free. To ensure
+                                <p>If you need research proposal writing help and choose us for assistance, our Ph.D. research
+                                    proposal experts will ensure to deliver the content that is 100% plagiarism free. To ensure
                                     authenticity, we run your research proposals through multiple plagiarism and AI detection
                                     tools and manual quality checks. </p>
                             </div>

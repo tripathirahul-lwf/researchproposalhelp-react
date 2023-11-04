@@ -1,5 +1,8 @@
 import React from 'react'
 import './step.css'
+import form from '../images/step/form.png'
+import payment from '../images/step/payment.png'
+import solution from '../images/step/solution.png'
 
 const Step = () => {
     return (
@@ -29,7 +32,7 @@ const Step = () => {
                                 </div>
                                 <div className="r-side red-light">
                                     <div className="set-img">
-                                        <img src="images/step/form.png" alt="" />
+                                        <img src={form} alt="step-img" loading='lazy' />
                                     </div>
                                 </div>
                             </div>
@@ -49,7 +52,7 @@ const Step = () => {
                                 </div>
                                 <div className="r-side green-light">
                                     <div className="set-img">
-                                        <img src="images/step/payment.png" alt="" />
+                                        <img src={payment} alt="step-img" loading='lazy' />
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +72,7 @@ const Step = () => {
                                 </div>
                                 <div className="r-side blue-light">
                                     <div className="set-img">
-                                        <img src="images/step/solution.png" alt="" />
+                                        <img src={solution} alt="step-img" loading='lazy'/>
                                     </div>
                                 </div>
                             </div>

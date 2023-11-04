@@ -19,8 +19,7 @@ const Services = () => {
                         <div className="col-12">
                             <div className="section-title">
                                 <h3 className="wow zoomIn" data-wow-delay=".2s">Services</h3>
-                                <h2 className="wow fadeInUp" data-wow-delay=".4s">Get Quality Research Proposals with Exclusive
-                                    Features
+                                <h2 className="wow fadeInUp" data-wow-delay=".4s">How Do We Provide the Best Research Proposal Writing Service?
                                 </h2>
                                 <p className="wow fadeInUp" data-wow-delay=".6s">Our research proposal writing services offer five
                                     exclusive features that no one else can

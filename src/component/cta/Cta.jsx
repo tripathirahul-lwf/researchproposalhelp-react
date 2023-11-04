@@ -9,35 +9,20 @@ const Cta = () => {
                     <div className="row">
                         <div className="col-lg-10 offset-lg-1 col-md-12 col-12">
                             <div className="title">
-                                <h2>Trusted by developers from over 80 planets</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                <h2>More Than 50,000 Students Use Our Research Proposal Writing Services Annually!</h2>
+                                <p>Offering a comprehensive ordering process and timely delivery, our research proposal
+                                    experts make sure to keep all our customers happy. In the past year, we successfully served
+                                    more than 50,000 students with a success rate of 96.84%. So, try us out today and discover
+                                    why this many students took help from us in the past year!</p>
+                            </div>
+                        </div>
+                        <div className=" chatBtn" data-wow-delay=".6s">
+                            <div className="button " data-wow-delay=".8s">
+                                <a href="https://api.whatsapp.com/send?phone=61488896118&text=I%20Need%20Help!!" className="btn">Get Help</a>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-8 offset-lg-2 col-md-12 col-12">
-                            <div className="row">
-                                <div className="col-lg-4 col-md-4 col-12">
-                                    <div className="single-achievement wow fadeInUp" data-wow-delay=".2s">
-                                        <h3 className="counter"><span id="secondo1" className="countup" cup-end="100">100</span>%</h3>
-                                        <p>satisfaction</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-4 col-12">
-                                    <div className="single-achievement wow fadeInUp" data-wow-delay=".4s">
-                                        <h3 className="counter"><span id="secondo2" className="countup" cup-end="120">120</span>K</h3>
-                                        <p>Happy Users</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-4 col-12">
-                                    <div className="single-achievement wow fadeInUp" data-wow-delay=".6s">
-                                        <h3 className="counter"><span id="secondo3" className="countup" cup-end="125">125</span>k+</h3>
-                                        <p>Downloads</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </section>
         </>
