@@ -33,7 +33,7 @@ const Footer = () => {
                                     <h3>Contact us</h3>
                                     <ul>
                                         <li><span><i className="fa-solid fa-phone-volume"></i></span><a href="tel:+61488896118">+61 4888 96 118</a></li>
-                                        <li><span><i className="fa-solid fa-envelope"></i></span><a href="mailto:help@learnwithfraternity.com">help@researchproposalhelp@gmail.Com</a></li>
+                                        <li><span><i className="fa-solid fa-envelope"></i></span><a href="mailto:help@learnwithfraternity.com">help@researchproposalhelp.com</a></li>
                                         <li><span><i className="fa-solid fa-location-dot"></i></span><a >Endeavour Hills Victoria, Australia PO Box: 3802</a></li>
                                     </ul>
                                 </div>

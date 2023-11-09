@@ -10,11 +10,7 @@
     }
 }
 
-@media (max-width: 767px) {
-    .our-achievement {
-        padding: 60px 0;
-    }
-}
+
 
 .our-achievement .title h2 {
     color: #fff;
@@ -44,4 +40,17 @@
   .button .btn:hover {
     background-color: #081828;
     color: #fff;
+}
+@media (max-width: 767px) {
+    .our-achievement {
+        padding: 60px 0;
+    }
+    .our-achievement .title h2 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 480px){
+    .our-achievement .title h2 {
+        font-size: 26px;
+    }
 }

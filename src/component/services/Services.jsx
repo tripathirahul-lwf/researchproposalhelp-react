@@ -76,12 +76,12 @@ const Services = () => {
                                 <p>Have fewer days to submit your final research proposal? We can help you by creating a
                                     custom research proposal as quickly as possible!</p>
                             </div>
-                            <div className="single-feature chatBtn" data-wow-delay=".6s">
+                            {/* <div className="single-feature chatBtn" data-wow-delay=".6s">
                                 <h3 className='text-center'>If you want to any Help regarding your Assignment</h3>
                                 <div className="button chat wow fadeInLeft" data-wow-delay=".8s">
                                     <a href="https://api.whatsapp.com/send?phone=61488896118&text=I%20Need%20Help!!" className="btn chat">Click Here</a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

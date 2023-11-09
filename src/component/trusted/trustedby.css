@@ -1,4 +1,4 @@
-.trusted-block{
+.trusted-block {
     text-align: center;
     padding: 35px;
     background-color: #fff;
@@ -8,32 +8,50 @@
     -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
     transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) 0s;
 }
-.trusted-block:hover{
+
+.trusted-block:hover {
     -webkit-box-shadow: 0px 3px 5px #00000017;
     box-shadow: 0px 3px 5px #00000017;
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
 }
-.rating , .review-count{
+
+.rating,
+.review-count {
     font-size: 20px;
     color: #766d6d;
     font-weight: 600;
     margin: .7rem 0;
 }
-.review-count{
+
+.review-count {
     padding-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
-.rate_star{
+
+.rate_star {
     color: #ffb700;
 }
-.trusted-logo img{
+
+.trusted-logo img {
     margin-top: 10px;
     height: 60px;
     width: 50%;
 }
-@media screen and (max-width:991px) {
-    .trusted-block{
-        margin: 1rem 0;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .trusted-logo img {       
+        width: 86%;
     }
 }
+@media screen and (max-width:991px) {
+    .trusted-block {
+        margin: 1rem 0;
+    }
+
+}
+@media screen and (max-width:480px){
+    .trusted-logo img {       
+        width: 86%;
+    }
+}
+

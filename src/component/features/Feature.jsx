@@ -25,7 +25,7 @@ const Feature = () => {
                     <div className="row">
                         <div className="feature_box">
 
-                            <div className="single-feature wow fadeInUp" data-wow-delay=".2s">
+                            <div className="single-feature-box wow fadeInUp" data-wow-delay=".2s">
                                 <i>
                                     <img src={customer} alt="" />
                                 </i>
@@ -37,7 +37,7 @@ const Feature = () => {
 
 
 
-                            <div className="single-feature wow fadeInUp" data-wow-delay=".4s">
+                            <div className="single-feature-box wow fadeInUp" data-wow-delay=".4s">
                                 <i>
                                     <img src={authentic} alt="" />
                                 </i>
@@ -50,7 +50,7 @@ const Feature = () => {
 
 
 
-                            <div className="single-feature wow fadeInUp" data-wow-delay=".6s">
+                            <div className="single-feature-box wow fadeInUp" data-wow-delay=".6s">
                                 <i>
                                     <img src={secure} alt="" />
                                 </i>
