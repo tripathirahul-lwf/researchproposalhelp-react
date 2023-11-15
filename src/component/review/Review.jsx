@@ -47,8 +47,7 @@ const Review = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-title">
-                                <h3 className="wow zoomIn" data-wow-delay=".2s">Review</h3>
-                                <h2 className="wow fadeInUp" data-wow-delay=".4s">What 58932+ Students Have to Say About Our
+                                <h2 >What 58932+ Students Have to Say About Our
                                     Academic Research Proposal Services
                                 </h2>
                             </div>

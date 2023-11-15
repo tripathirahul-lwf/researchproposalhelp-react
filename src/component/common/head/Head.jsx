@@ -3,6 +3,12 @@ import './head.css'
 import logoWhite from '../../images/logo/logo.png'
 
 const Head = () => {
+    const closeNav = () => {
+        let a = document.getElementById('navButton')
+        a.classList.add('collapsed')
+        let b = document.getElementById('navbarSupportedContent')
+        b.classList.remove('show')
+      };
 
     const [isSticky, setIsSticky] = useState(false);
 
@@ -37,7 +43,7 @@ const Head = () => {
                                     </a>
                                     <button button className="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        aria-expanded="false" aria-label="Toggle navigation" id= "navButton">
                                         <span className="toggler-icon"></span>
                                         <span className="toggler-icon"></span>
                                         <span className="toggler-icon"></span>
@@ -45,22 +51,21 @@ const Head = () => {
                                     <div className="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                         <ul id="nav" className="navbar-nav ms-auto">
                                             <li className="nav-item">
-                                                <a href="#home" className="page-scroll active"
-                                                    aria-label="Toggle navigation">Home</a>
+                                                <a href="#home"  onClick={closeNav}>Home</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a href="#features" className="page-scroll"
-                                                    aria-label="Toggle navigation">Services</a>
+                                                <a href="#services"  
+                                                     onClick={closeNav}>Services</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a href="#review" className="page-scroll" aria-label="Toggle navigation">Review</a>
+                                                <a href="#review"   onClick={closeNav}>Review</a>
                                             </li>
                                             <li className="nav-item">
-                                                <a href="#FAQs" className="page-scroll" aria-label="Toggle navigation">FAQs</a>
+                                                <a href="#FAQs"  onClick={closeNav}>FAQs</a>
                                             </li>
 
                                             <li className="nav-item">
-                                                <a href="#contact" aria-label="Toggle navigation">Contact</a>
+                                                <a href="#footer"  onClick={closeNav}>Contact us</a>
                                             </li>
 
                                         </ul>

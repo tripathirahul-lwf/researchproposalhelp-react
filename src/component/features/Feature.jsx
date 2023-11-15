@@ -12,22 +12,16 @@ const Feature = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-title">
-                                <h3 className="wow zoomIn" data-wow-delay=".2s">Features</h3>
-                                <h2 className="wow fadeInUp" data-wow-delay=".4s">How Do We Provide the Best Help with Research
-                                    Proposal?
-                                </h2>
-                                <p className="wow fadeInUp" data-wow-delay=".6s">Our research proposal writing service promises you
-                                    three things that ensure we turn out
-                                    the best every time we deliver an order!</p>
+                                <h2>How Do We Provide the Best Help with Research Proposal? </h2>
+                                <p>Our research proposal writing service promises you three things that ensure we turn out the best every time we deliver an order!</p>
                             </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="feature_box">
-
-                            <div className="single-feature-box wow fadeInUp" data-wow-delay=".2s">
+                            <div className="single-feature-box ">
                                 <i>
-                                    <img src={customer} alt="" />
+                                    <img src={customer} alt="feartues-img" loading='lazy' />
                                 </i>
                                 <h3>24/7 Availability</h3>
                                 <p>No matter when you wish to reach out to us, our research proposal experts are here to
@@ -37,9 +31,9 @@ const Feature = () => {
 
 
 
-                            <div className="single-feature-box wow fadeInUp" data-wow-delay=".4s">
+                            <div className="single-feature-box " data-wow-delay=".4s">
                                 <i>
-                                    <img src={authentic} alt="" />
+                                    <img src={authentic} alt="feartues-img" loading='lazy' />
                                 </i>
                                 <h3>100% Authenticity </h3>
                                 <p>If you need research proposal writing help and choose us for assistance, our Ph.D. research
@@ -50,9 +44,9 @@ const Feature = () => {
 
 
 
-                            <div className="single-feature-box wow fadeInUp" data-wow-delay=".6s">
+                            <div className="single-feature-box " data-wow-delay=".6s">
                                 <i>
-                                    <img src={secure} alt="" />
+                                    <img src={secure} alt="feartues-img" loading='lazy' />
                                 </i>
                                 <h3>200% Reliability</h3>
                                 <p>Offering a transparent ordering process along with the option to make a payment through

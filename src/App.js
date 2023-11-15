@@ -1,28 +1,23 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './component/common/head/Header';
-import Cta from './component/cta/Cta';
-import Faq from './component/faq/Faq';
-import FWrapper from './component/features/FWrapper';
+import Home from './component/Home';
 import Footer from './component/footer/Footer';
-import Hero from './component/hero/Hero';
-import RWrapper from './component/review/RWrapper';
-import Servicesmain from './component/services/Servicesmain';
-import SWrapper from './component/steps/SWrapper';
-import Trustedby from './component/trusted/Trustedby';
+import Thankyou from './component/thankyou/Thankyou';
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Trustedby />
-      <SWrapper />
-      <Servicesmain />
-      <FWrapper />
-      <Cta />
-      <RWrapper />
-      <Faq />
-      <Footer />
+      <BrowserRouter >
+        <Header />
+        <Routes>
+          <Route path='' element={<Home />} />
+        </Routes>
+        <Routes>
+          <Route path='/thankyou' element={<Thankyou />} />
+        </Routes>        
+        <Footer />
+      </BrowserRouter>
     </>
   );
 }

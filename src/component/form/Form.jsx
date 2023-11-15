@@ -9,10 +9,10 @@ const Form = () => {
         document.body.appendChild(script);
 
         script.onload = () => {
-            var formsappForm = new window.formsapp('64edf9f987b11fad18feb978', 'standard', { "width": "100%", "height": "500px", "opacity": 0 });
+            var formsappForm = new window.formsapp('6540daeb4c0303782e76c664', 'standard', { "width": "100%", "height": "500px", "opacity": 0 });
         }
     }, [])
-    return <div formsappId="64edf9f987b11fad18feb978" className='w-80'></div>;
+    return <div formsappId="6540daeb4c0303782e76c664" ></div>;
 }
 
 export default Form

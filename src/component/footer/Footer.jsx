@@ -8,15 +8,15 @@ const Footer = () => {
 
     return (
         <>
-            <footer className="footer">
+            <footer className="footer" id='footer'>
                 <div className="footer-top">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4 col-12">
                                 <div className="single-footer f-about">
                                     <div className="logo">
-                                        <a href="index-2.html">
-                                            <img src={logo} alt="#" />
+                                        <a href="/">
+                                            <img src={logo} alt="Research Proposal Help logo" loading="lazy" />
                                         </a>
                                     </div>
                                     <ul className='social-icon'>

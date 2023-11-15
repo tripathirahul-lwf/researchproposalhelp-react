@@ -9,8 +9,7 @@ const FaqW = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="section-title">
-                                <h3 className="wow zoomIn" data-wow-delay=".2s">FAQs</h3>
-                                <h2 className="wow fadeInUp" data-wow-delay=".4s">Frequently Asked Questions</h2>
+                                <h2>Frequently Asked Questions</h2>
                             </div>
                         </div>
                     </div>

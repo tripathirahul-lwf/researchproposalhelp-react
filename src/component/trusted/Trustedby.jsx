@@ -9,15 +9,7 @@ const Trustedby = () => {
         <>
             <section className="truedby section features">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="section-title">
-                                <h3 className="wow zoomIn" data-wow-delay=".2s">Trusted By</h3>
-                                <h2 className="wow fadeInUp" data-wow-delay=".4s">How Do We Provide The Best Research Proposal Writing Service?</h2>
-                                <p className="wow fadeInUp" data-wow-delay=".6s">Over 10,000+ positive student reviews, our research proposal help service is the trusted choice for academic excellence. </p>
-                            </div>
-                        </div>
-                    </div>
+                 
                     <div className="row">
                         <div className="col-lg-4 col-md-6">
                             <div className="trusted-block">
@@ -64,7 +56,7 @@ const Trustedby = () => {
                                     <div className="review-count">967 review</div>
 
                                     <div className="trusted-logo">
-                                        <img src={sitejabber} alt="logo" />
+                                        <img src={sitejabber} alt="sitejabber-logo" loading='lazy'/>
                                     </div>
                                 </div>
                             </div>
@@ -114,7 +106,7 @@ const Trustedby = () => {
                                     <div className="review-count">1587 review</div>
 
                                     <div className="trusted-logo">
-                                        <img src={google} alt="logo" />
+                                        <img className='googleImg' src={google} alt="google-logo" loading='lazy'/>
                                     </div>
                                 </div>
                             </div>
@@ -164,7 +156,7 @@ const Trustedby = () => {
                                     <div className="review-count">1298 review</div>
 
                                     <div className="trusted-logo">
-                                        <img src={trust} alt="logo" />
+                                        <img src={trust} alt="trustpilot-logo" loading='lazy'/>
                                     </div>
                                 </div>
                             </div>
